@@ -68,6 +68,7 @@
     Sensitivity of linear systems and floating point;
     iterative refinement
   hw:
+    - <a href="lec/2015-02-06-notes.pdf">Notes</a>
     - PS2 due
 #
 # ==================
@@ -108,8 +109,9 @@
     Banded and sparse Gaussian elimination
   hw:
     - Read 5.6-5.7
+    - <a href="lec/2015-02-18-notes.pdf">Notes</a>
     - PS4 due
-    - PP1 out
+    - <a href="hw/proj1.pdf">PP1 out</a>
 -
   date: 2015-02-20
   info: |
@@ -131,7 +133,6 @@
     Gram-Schmidt and Householder QR
   hw:
     - Read 6.2-6.3
-    - PP1 due
 -
   date: 2015-02-27
   info: |
@@ -145,7 +146,7 @@
   info: |
     Review
   hw:
-    - PP1 reviews
+    - PP1 due
     - PS5 due
 -
   date: 2015-03-04
@@ -156,7 +157,9 @@
   info: |
     Intro to iterative methods
   hw:
+    - PP1 reviews
     - Read 7.1-7.3
+    - <a href="lec/2015-03-06-notes.pdf">Notes</a>
 #
 # ==================
 # Week 8
@@ -164,37 +167,41 @@
 -
   date: 2015-03-09
   info: |
-    Conjugate gradients and Krylov subspaces
+    Stationary methods, continued
   hw:
     - Read 7.4-7.5
     - PP1 final
     - PP2 out
+    - <a href="lec/2015-03-09-notes.pdf">Notes</a>
 -
   date: 2015-03-11
   info: |
-    Preconditioned iterations, multigrid, domain decomposition
+    Conjugate gradients and Krylov subspaces
   hw:
     - Read 7.6
+    - <a href="lec/2015-03-11-notes.pdf">Notes</a>
 -
   date: 2015-03-13
   info: |
-    Practical solver advice
+    CG and company, preconditioning
+  hw:
+    - <a href="lec/2015-03-13-notes.pdf">Notes</a>
 #
 # ==================
 # Week 9
 #
 -
   date: 2015-03-16
-  info: Guest lecture
+  info: "Guest lecture: Intro to eigenproblems"
   hw:
-    - PS6 out
 -
   date: 2015-03-18
   info: |
-    Introduction to eigenproblems
+    Power method and subspace iteration
   hw:
     - Read 8.1
     - PP2 due
+    - PS6 out
 -
   date: 2015-03-20
   info: |
@@ -210,7 +217,6 @@
   hw:
     - Read 8.2
     - PP2 reviews
-    - PS6 due
 -
   date: 2015-03-25
   info: |
@@ -223,6 +229,7 @@
     Templates for eigenproblems
   hw:
     - PP2 final
+    - PS6 due
 #
 # ==================
 # Week 11 (spring break)

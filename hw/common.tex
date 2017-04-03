@@ -6,6 +6,8 @@
 \usepackage{pgfplots}
 \usepackage{listings}
 
+\newcommand{\fl}{\operatorname{fl}}
+\newcommand{\macheps}{\epsilon_{\mathrm{mach}}}
 \newcommand{\bbR}{\mathbb{R}}
 \newcommand{\bbC}{\mathbb{C}}
 
@@ -17,6 +19,17 @@
   \begin{center}
     {\large{\bf #1}} \\
     Due: #2
+  \end{center}
+  \lstset{language=matlab,columns=flexible}
+}
+
+\newcommand{\phdr}[1]{
+  \pagestyle{fancy}
+  \lhead{Bindel, Spring 2015}
+  \rhead{Numerical Analysis (CS 4220)}
+  \fancyfoot{}
+  \begin{center}
+    {\large{\bf #1}}
   \end{center}
   \lstset{language=matlab,columns=flexible}
 }
